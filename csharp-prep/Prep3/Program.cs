@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("Hello Prep3 World!");
 
-         Random randomGenerator = new Random();
+        Random randomGenerator = new Random();
         int magicNumber = randomGenerator.Next(1, 101);
 
         int guess = -1;
